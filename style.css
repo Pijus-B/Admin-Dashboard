@@ -1,8 +1,12 @@
+body {
+    margin: 0;
+    background-color: #dbeafe; /* The blue background color to fill entire page */
+}
 .container {
     display: inline-grid;
     position: absolute;
     background-color: #0ea5e9;
-    height: 700px;
+    height: 900px;
 }
 .sidebar-container {
     margin-top: 40px;
@@ -24,7 +28,7 @@
     margin-left: 40px;
     grid-template: 40px 40px 40px / 5px;
 }
-img {
+.nav-logo {
     height: 20px;
     width: 20px;
     margin-right: 10px;
@@ -32,10 +36,12 @@ img {
 }
 .header-container {
     display: flex;
+    background-color: white;
     justify-content: center;
-    height: 200px;
+    height: auto;
 }
 .form-container {
+    display: flex;
     margin-right: 300px;
     margin-top: 20px;
 }
@@ -47,3 +53,120 @@ input {
     border: 0;
     height: 20px;
 }
+#search {
+    height: 20px;
+    width: 20px;
+    align-self: center;
+    color: black;
+    margin: 0 0 -3px;
+    margin-right: 10px;
+}
+#bell {
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    color: black;
+    margin-top: 20px;
+    right: 25%;
+}
+h3 {
+    position: absolute;
+    right: auto;
+}
+.header-text{
+    display: flex;
+}
+.header2-text {
+    margin-left: 170px;
+}
+h4 {
+    margin-bottom: -10px;
+}
+.button-container{
+    position:flex;
+    left: 73%;
+    display: flex;
+    gap: 40px;
+    margin-right: 100px;
+}
+.header2-container {
+    display: flex;
+    background-color: white;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 200px;
+    margin-bottom: 40px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    border: 0px solid #e0e0e0;
+}
+.buttons {
+    display: flex;
+    gap: 40px;
+}
+.main-container {
+    display: grid;
+    grid-template-columns: repeat(2, 330px);
+    grid-template-rows: repeat(3, 150px);
+    margin-left: 265px;
+    gap: 40px;
+    margin-top: 0;
+    min-height: 100vh;
+    background-color: #dbeafe;;
+    height: auto;
+  }
+  .window {
+    background-color: #ffffff;
+    display: flex;
+    border-radius: 8px; 
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1); 
+    padding: 20px;
+    border-left: 5px solid #f59e0b; 
+    flex-direction: column;
+    justify-content: space-between;
+    height: 130px;
+  }
+  .button-18 {
+    align-items: center;
+    background-color: #0ea5e9;
+    border: 0;
+    border-radius: 100px;
+    box-sizing: border-box;
+    color: #ffffff;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: -apple-system, system-ui, system-ui, "Segoe UI", Roboto, "Helvetica Neue", "Fira Sans", Ubuntu, Oxygen, "Oxygen Sans", Cantarell, "Droid Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Lucida Grande", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    justify-content: center;
+    line-height: 20px;
+    max-width: 480px;
+    min-height: 40px;
+    min-width: 0px;
+    overflow: hidden;
+    padding: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    touch-action: manipulation;
+    transition: background-color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, box-shadow 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s;
+    user-select: none;
+    -webkit-user-select: none;
+    vertical-align: middle;
+  }
+  
+  .button-18:hover,
+  .button-18:focus { 
+    background-color: #16437E;
+    color: #ffffff;
+  }
+  
+  .button-18:active {
+    background: #09223b;
+    color: rgb(255, 255, 255, .7);
+  }
+  
+  .button-18:disabled { 
+    cursor: not-allowed;
+    background: rgba(0, 0, 0, .08);
+    color: rgba(0, 0, 0, .3);
+  }
