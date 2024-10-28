@@ -69,6 +69,15 @@ input {
     margin-top: 20px;
     right: 25%;
 }
+#man {
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    color: black;
+    margin-top: 10px;
+    left: 300px;
+}
+
 h3 {
     position: absolute;
     right: auto;
